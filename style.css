@@ -1,0 +1,264 @@
+/* 基本設定 */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+/* ヘッダー */
+header {
+    background-color: #EBBECC;
+    padding: 20px;
+    padding-top: 140px;
+    height: 500px;
+}
+
+header h1 {
+    font-family: "Jura", serif;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    padding-top: 120px;
+    color: #B60909;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    border: 8px solid #B60909;
+    padding: 25px 60px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: "Jura", serif;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* セクション共通 */
+section {
+    background-color: white;
+    margin: 50px 10%;
+    padding: 30px;
+    /* border: 3px solid #d32f2f;  */
+    /*  border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+} 
+
+.title-box {
+    font-family: "Jura", serif;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    display: inline-block;
+    border: 5px solid #B60909; /* 赤枠 */
+    padding: 5px 20px;
+    border-radius: 28px;
+    margin-bottom: 10px;
+    background-color: white;
+    /* margin: 50px 10%;
+    padding: 30px; */
+}
+
+h2 {
+    font-size: 40px;
+    color: #B60909;
+    margin: 0 10px 0 10px;
+}
+
+.sub-title {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5F4141;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* work */
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-item {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    color: #5F4141;
+    width: 45%;
+    text-align: center;
+    border: 5px solid #B60909;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+.p-item {
+    margin-top: 1rem;
+}
+
+.p-item1 {
+    margin-top: 80px;
+} 
+
+
+.p-item2 {
+    margin-top: 90px;
+} 
+
+.work-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* skill */
+.skills {
+    /* justify-content: center;
+    gap: 20px; */
+    display: inline-block;
+    border: 5px solid #B60909;
+    padding: 25px 60px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+}
+
+.skill-item1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 45%; */
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.skill-item1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.skill-item1 p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    color: #5F4141;
+    /* margin: 0 0 0 160px; */
+    padding: 25px;
+    line-height: 2rem;
+}
+
+.skill-item2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 45%; */
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.skill-item2 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.skill-item2 p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    color: #5F4141;
+    /* margin: 0 0 0 160px; */
+    padding: 25px;
+    line-height: 2rem;
+}
+
+/* about */
+
+.ab {
+    display: inline-block;
+    border: 5px solid #B60909;
+    padding: 25px 60px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+}
+
+.ab h2 {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    color: #5F4141;
+    font-size: 30px;
+
+}
+
+.ab p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5F4141;
+    line-height: 3rem;
+
+}
+
+
+/* goal */
+
+.gl {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    color: #5F4141;
+    display: inline-block;
+    border: 5px solid #B60909;
+    padding: 40px 80px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+/* フッター */
+footer {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    background-color: #EBBECC;
+    padding: 20px;
+    color: white;
+    /* border-top: 5px solid #b71c1c; */
+}
+
+.ft {
+    display: flex;
+    flex-direction: column;
+}
